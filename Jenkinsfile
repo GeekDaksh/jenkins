@@ -7,7 +7,7 @@ pipeline {
         stage('Pull from Git') {
             steps {
                 echo "Pulling code from Git repository"
-                git 'https://github.com/YOUR_USERNAME/YOUR_REPO.git'
+                git 'https://github.com/GeekDaksh/jenkins.git'
             }
         }
 
